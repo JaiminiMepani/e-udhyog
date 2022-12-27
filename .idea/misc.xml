@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable-v24/shape.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/buttoncurve.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/logocurve.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/rounded_textback.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/already_selling.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/buy_sell.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/buyer_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/buyer_register.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/login_register.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/seller_catalog.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/seller_first.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/selling_details.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/start_selling.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
