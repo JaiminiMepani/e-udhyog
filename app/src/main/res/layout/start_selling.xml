@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="301dp"
         android:layout_height="164dp"
-        android:text="Become A Seller On E-Udhyog"
+        android:text="@string/become_a_seller_on_e_udhyog"
         android:textAlignment="center"
         android:textColor="#FDBF04"
         android:textSize="40sp"
