@@ -7,16 +7,18 @@
     tools:context=".MainActivity"
     android:background="#F6F5F3">
 
+
+
     <TextView
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:ems="10"
         android:text="Make Your Catalogue"
         android:textAlignment="center"
         android:textColor="#FDBF04"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +76,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/add_product_image"
         android:textColor="@color/black"
@@ -234,5 +236,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.833" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
