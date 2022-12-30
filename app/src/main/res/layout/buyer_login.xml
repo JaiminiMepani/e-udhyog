@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".BuyerLogin"
     android:background="#F6F5F3">
 
 
@@ -66,7 +66,7 @@
         android:height="50dp"
         android:background="@drawable/buttoncurve"
         android:drawableLeft="@drawable/ic_baseline_phone_24"
-        android:drawablePadding="30dp"
+        android:drawablePadding="10dp"
         android:ems="10"
         android:hint="@string/phone_number"
         android:inputType="phone"
@@ -90,7 +90,7 @@
         android:background="@drawable/buttoncurve"
         android:drawableStart="@drawable/ic_baseline_lock_24"
         android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
-        android:drawablePadding="30dp"
+        android:drawablePadding="10dp"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"

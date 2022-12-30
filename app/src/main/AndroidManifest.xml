@@ -33,6 +33,7 @@
         <activity android:name="com.example.e_udhyog.StartSelling"/>
         <activity android:name="com.example.e_udhyog.SellingDetails"/>
         <activity android:name="com.example.e_udhyog.SellerCatalog"/>
+        <activity android:name="com.example.e_udhyog.Otp"/>
     </application>
 
 </manifest>
