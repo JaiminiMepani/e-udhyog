@@ -12,7 +12,7 @@ public class Otp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.otp);
-        Button Register =findViewById(R.id.register);
+        Button Register =findViewById(R.id.registerbutton);
         Register .setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

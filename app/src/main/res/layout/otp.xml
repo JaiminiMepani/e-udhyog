@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.421" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Register"
+        android:id="@+id/registerbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="260dp"
@@ -77,12 +77,16 @@
         android:layout_height="56dp"
         android:background="@drawable/otpsquare"
         android:inputType="number"
+        android:maxLength="1"
+        android:paddingStart="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.573" />
 
     <EditText
         android:id="@+id/otp2"
@@ -90,12 +94,16 @@
         android:layout_height="56dp"
         android:background="@drawable/otpsquare"
         android:inputType="number"
+        android:maxLength="1"
+        android:paddingStart="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintHorizontal_bias="0.371"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.573" />
 
     <EditText
         android:id="@+id/otp3"
@@ -103,12 +111,16 @@
         android:layout_height="56dp"
         android:background="@drawable/otpsquare"
         android:inputType="number"
+        android:maxLength="1"
+        android:paddingStart="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.646"
+        app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.573" />
 
     <TextView
         android:id="@+id/textView9"
@@ -121,24 +133,28 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82" />
+        app:layout_constraintVertical_bias="0.754" />
 
     <EditText
         android:id="@+id/otp4"
         android:layout_width="66dp"
         android:layout_height="56dp"
-        android:ems="10"
         android:background="@drawable/otpsquare"
+        android:ems="10"
         android:inputType="number"
+        android:maxLength="1"
+        android:paddingStart="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.573" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
