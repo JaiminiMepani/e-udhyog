@@ -78,7 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.465"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="Autofill,RtlHardcoded,RtlSymmetry" />
 
     <EditText
         android:id="@+id/Password"
@@ -100,7 +100,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672" />
+        app:layout_constraintVertical_bias="0.672"
+        tools:ignore="Autofill" />
 
 
     <EditText
@@ -108,7 +109,7 @@
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:background="@drawable/buttoncurve"
-        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="@string/phone_number"
@@ -122,7 +123,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="Autofill,RtlSymmetry" />
 
     <EditText
         android:id="@+id/confirmPassword"
@@ -144,7 +146,8 @@
         app:layout_constraintHorizontal_bias="0.006"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773" />
+        app:layout_constraintVertical_bias="0.773"
+        tools:ignore="Autofill" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/verify"
@@ -157,7 +160,7 @@
         android:text="@string/verify"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

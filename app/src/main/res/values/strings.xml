@@ -34,4 +34,6 @@
     <string name="verify_your_phone_number">Verify Your Phone Number</string>
     <string name="verify">Verify</string>
     <string name="resend_code">Resend Code</string>
+    <string name="gstin_number">GSTIN Number</string>
+    <string name="enter_your_otp_code_here">Enter Your Otp Code Here</string>
 </resources>

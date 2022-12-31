@@ -30,58 +30,62 @@
 
     <EditText
         android:id="@+id/name"
-        android:layout_width="250dp"
+        android:layout_width="260dp"
         android:layout_height="50dp"
         android:autofillHints=""
         android:background="@drawable/buttoncurve"
-        android:drawablePadding="30dp"
+        android:drawablePadding="10dp"
         android:ems="10"
         android:textColor="@color/black"
-        android:hint="name"
-        android:textColorHint="@color/black"
-        android:inputType="text"
+        android:hint="@string/phone_number"
         android:paddingStart="5dp"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:textColorHint="#514F4F"
+        android:inputType="phone"
+        android:maxLength="10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.006"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553" />
+        app:layout_constraintVertical_bias="0.553"
+        tools:ignore="RtlSymmetry" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="250dp"
+        android:layout_width="260dp"
         android:layout_height="50dp"
         android:autofillHints=""
         android:background="@drawable/buttoncurve"
-        android:drawablePadding="30dp"
         android:ems="10"
         android:hint="@string/otp"
+        android:maxLength="4"
         android:inputType="textPassword"
+        android:drawablePadding="10dp"
         android:paddingStart="5dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
         android:textColor="@color/black"
-        android:textColorHint="@color/black"
+        android:textColorHint="#514F4F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.656"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,RtlSymmetry" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="250dp"
+        android:width="260dp"
         android:height="50dp"
         android:background="@drawable/buttoncurve"
         android:backgroundTint="#FDBF04"
         android:text="@string/con"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.006"
@@ -99,7 +103,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.135"
-        app:srcCompat="@drawable/sellerlive" />
+        app:srcCompat="@drawable/sellerlive"
+        tools:ignore="ContentDescription" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

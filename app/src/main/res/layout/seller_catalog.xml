@@ -31,13 +31,12 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="165dp"
-        android:layout_height="51dp"
+        android:layout_height="50dp"
         android:background="@drawable/shape"
         android:backgroundTint="#FDBF04"
         android:text="@string/finish"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.918"
@@ -48,13 +47,12 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
         android:layout_width="165dp"
-        android:layout_height="51dp"
+        android:layout_height="50dp"
         android:background="@drawable/shape"
         android:backgroundTint="#FDBF04"
         android:text="@string/add_product"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.121"
@@ -72,7 +70,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.191"
-        app:srcCompat="@drawable/shape" />
+        app:srcCompat="@drawable/shape"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView"
@@ -158,7 +157,8 @@
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389" />
+        app:layout_constraintVertical_bias="0.389"
+        tools:ignore="Autofill,LabelFor" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine2"
@@ -174,7 +174,8 @@
         app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.615" />
+        app:layout_constraintVertical_bias="0.615"
+        tools:ignore="Autofill,LabelFor" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine3"
@@ -189,7 +190,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,LabelFor" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine4"
@@ -205,7 +207,8 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.725" />
+        app:layout_constraintVertical_bias="0.725"
+        tools:ignore="Autofill,LabelFor" />
 
     <TextView
         android:id="@+id/textView6"
@@ -235,7 +238,8 @@
         app:layout_constraintHorizontal_bias="0.965"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833" />
+        app:layout_constraintVertical_bias="0.833"
+        tools:ignore="Autofill,LabelFor" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
