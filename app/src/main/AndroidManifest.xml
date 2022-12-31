@@ -22,18 +22,38 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.e_udhyog.BuySell"/>
+        <activity android:name="com.example.e_udhyog.BuySell"
+                android:theme="@style/Theme.eudhyog"/>
 
-        <activity android:name="com.example.e_udhyog.SellerFirst"/>
+        <activity android:name="com.example.e_udhyog.SellerFirst"
+            android:theme="@style/Theme.eudhyog"/>
 
-        <activity android:name="com.example.e_udhyog.LoginRegister"/>
-        <activity android:name="com.example.e_udhyog.BuyerLogin"/>
-        <activity android:name="com.example.e_udhyog.BuyerRegister"/>
-        <activity android:name="com.example.e_udhyog.AlreadySelling"/>
-        <activity android:name="com.example.e_udhyog.StartSelling"/>
-        <activity android:name="com.example.e_udhyog.SellingDetails"/>
-        <activity android:name="com.example.e_udhyog.SellerCatalog"/>
-        <activity android:name="com.example.e_udhyog.Otp"/>
+        <activity android:name="com.example.e_udhyog.LoginRegister"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.BuyerLogin"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.BuyerRegister"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.AlreadySelling"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.StartSelling"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.SellingDetails"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.SellerCatalog"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.Otp"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.ForgotPassword"
+            android:theme="@style/Theme.eudhyog"/>
     </application>
 
 </manifest>
