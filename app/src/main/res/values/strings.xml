@@ -37,4 +37,9 @@
     <string name="gstin_number">GSTIN Number</string>
     <string name="enter_your_otp_code_here">Enter Your Otp Code Here</string>
     <string name="aadhaar_number">Aadhaar Number</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="please_enter_the_4_digit_code_sent_to_your_phone_number">Please Enter The 4 Digit Code Sent To Your Phone Number</string>
+    <string name="your_new_password_must_be_different_from_previously_used_password">Your New Password Must Be Different From Previously Used Password</string>
+    <string name="save">Save</string>
+    <string name="new_password">New Password</string>
 </resources>

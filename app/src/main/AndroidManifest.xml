@@ -54,6 +54,12 @@
 
         <activity android:name="com.example.e_udhyog.ForgotPassword"
             android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.ForgotPasswordOtp"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.ChangePassword"
+            android:theme="@style/Theme.eudhyog"/>
     </application>
 
 </manifest>
