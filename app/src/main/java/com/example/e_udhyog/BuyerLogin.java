@@ -13,9 +13,8 @@ public class BuyerLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.buyer_login);
-        TextView  ForgotPassword = findViewById(R.id.forgotpassword);
-
-        ForgotPassword.setOnClickListener(new View.OnClickListener(){
+        TextView Forgotpassword =findViewById(R.id.forgotpassword);
+        Forgotpassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(BuyerLogin.this,ForgotPassword.class);
