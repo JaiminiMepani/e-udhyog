@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:drawablePadding="150dp"
         android:ems="10"
-        android:text="ALREADY SELLING"
+        android:text="@string/LOGIN"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="40sp"
