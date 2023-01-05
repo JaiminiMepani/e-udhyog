@@ -60,7 +60,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/phn_num"
         android:layout_height="50dp"
         android:layout_width="260dp"
         android:height="50dp"
@@ -84,7 +84,7 @@
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/password_login"
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:autofillHints=""
@@ -111,7 +111,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/login"
+        android:id="@+id/loginbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="260dp"
