@@ -2,18 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.e_udhyog">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Eudhyog"
+        android:theme="@style/Theme.eudhyog"
         tools:targetApi="31">
-        <uses-permission android:name="android.permission.INTERNET"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -61,6 +61,14 @@
 
         <activity android:name="com.example.e_udhyog.ChangePassword"
             android:theme="@style/Theme.eudhyog"/>
+
+
+        <activity android:name="com.example.e_udhyog.DeliveryMain"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.SellerOtp"
+            android:theme="@style/Theme.eudhyog"/>
+
 
     </application>
 

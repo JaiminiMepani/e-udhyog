@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 public class BuyerLogin extends AppCompatActivity {
 
@@ -14,12 +14,16 @@ public class BuyerLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.buyer_login);
         TextView Forgotpassword =findViewById(R.id.forgotpassword);
+        Button Login=findViewById(R.id.loginbtn);
         Forgotpassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(BuyerLogin.this,ForgotPassword.class);
                 startActivity(intent);}
         });
+
+
+
     }
 
 }

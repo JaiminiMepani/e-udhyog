@@ -7,17 +7,17 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SellingDetails extends AppCompatActivity {
+public class SellerOtp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.selling_details);
-        Button Continue =findViewById(R.id.con);
-        Continue.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.seller_otp);
+        Button Verify =findViewById(R.id.verify);
+        Verify .setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(SellingDetails.this,SellerOtp.class);
+                Intent intent=new Intent(SellerOtp.this,SellerCatalog.class);
                 startActivity(intent);}
         });
     }

@@ -60,7 +60,7 @@
 
 
     <EditText
-        android:id="@+id/phn_num"
+        android:id="@+id/phnum"
         android:layout_height="50dp"
         android:layout_width="260dp"
         android:height="50dp"
@@ -69,7 +69,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="@string/phone_number"
-        android:maxLength="10"
+       android:maxLength="10"
         android:inputType="phone"
         android:paddingStart="5dp"
         android:textColor="@color/black"
@@ -82,32 +82,28 @@
         app:layout_constraintVertical_bias="0.556"
         tools:ignore="RtlHardcoded,RtlSymmetry"
         android:autofillHints="" />
-
     <EditText
-        android:id="@+id/password_login"
-        android:layout_width="260dp"
-        android:layout_height="50dp"
-        android:autofillHints=""
-        android:background="@drawable/buttoncurve"
-        android:drawableStart="@drawable/ic_baseline_lock_24"
-        android:drawablePadding="10dp"
-        android:ems="10"
-
-        app:passwordToggleEnabled="true"
-        android:inputType="textPassword"
-        android:hint="@string/password"
-        android:maxLength="8"
-        android:paddingStart="5dp"
-        android:paddingEnd="5dp"
-        android:textColor="@color/black"
-        android:textColorHint="#514F4F"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.656"/>
-
+    android:id="@+id/password_login"
+    android:layout_width="260dp"
+    android:layout_height="50dp"
+    android:autofillHints=""
+    android:background="@drawable/buttoncurve"
+    android:drawableStart="@drawable/ic_baseline_lock_24"
+    android:drawablePadding="10dp"
+    android:ems="10"
+    android:inputType="textPassword"
+    android:hint="@string/password"
+    android:maxLength="8"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:textColor="@color/black"
+    android:textColorHint="#514F4F"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.656"/>
 
 
     <androidx.appcompat.widget.AppCompatButton
