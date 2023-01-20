@@ -14,7 +14,7 @@ public class BuyerLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.buyer_login);
         TextView Forgotpassword =findViewById(R.id.forgotpassword);
-        Button Login=findViewById(R.id.loginbtn);
+        Button B_Login=findViewById(R.id.b_loginbtn);
         Forgotpassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -22,6 +22,12 @@ public class BuyerLogin extends AppCompatActivity {
                 startActivity(intent);}
         });
 
+       B_Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(BuyerLogin.this,BuyerMain.class);
+                startActivity(intent);}
+        });
 
 
     }

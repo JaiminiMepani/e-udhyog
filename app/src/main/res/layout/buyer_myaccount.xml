@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyerMyAccount"
+    android:background="#F6F5F3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="217dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/logocurve"
+            android:backgroundTint="@color/black"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/logo"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/buyeraccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="150dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:text="My Account"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+    <Button
+        android:id="@+id/buyerprofile"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/my_profile"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/buyerorder"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_shopping_bag_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/order"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <Button
+        android:id="@+id/selleracc"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/seller_account"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <Button
+        android:id="@+id/buyer_notification"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_notifications_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/notification"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <Button
+        android:id="@+id/byerhelp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_help_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/help"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+    <Button
+        android:id="@+id/terms"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_notes_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/terms_condition"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <Button
+        android:id="@+id/buyer_logout"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buttoncurveright"
+        android:backgroundTint="#FDBF04"
+        android:text="@string/logout"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <Button
+        android:id="@+id/buyer_delete"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buttoncurveleft"
+        android:backgroundTint="#FDBF04"
+        android:textStyle="bold"
+        android:text="@string/deactivate_account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

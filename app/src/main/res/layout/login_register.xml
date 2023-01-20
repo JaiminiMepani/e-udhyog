@@ -10,34 +10,39 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/register"
+        android:id="@+id/choose_register"
         android:layout_width="260dp"
         android:layout_height="50dp"
-        android:background="@drawable/shape"
+        android:background="@drawable/buttoncurveright"
         android:backgroundTint="#FDBF04"
         android:text="@string/register"
-        android:textColor="@color/black"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406" />
+        app:layout_constraintVertical_bias="0.411" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/login"
+        android:id="@+id/choose_login"
         android:layout_width="260dp"
         android:layout_height="50dp"
-        android:background="@drawable/shape"
+        android:background="@drawable/buttoncurveleft"
         android:backgroundTint="#FDBF04"
         android:text="@string/login"
-        android:textSize="30sp"
-        android:textColor="@color/black"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold
+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.628" />
 </androidx.constraintlayout.widget.ConstraintLayout>

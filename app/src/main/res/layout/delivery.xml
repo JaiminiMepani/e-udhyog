@@ -15,10 +15,10 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885" />
+        app:layout_constraintVertical_bias="0.861" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -257,19 +257,21 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="159dp"
-        android:layout_height="43dp"
-        android:background="@drawable/shape"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buttoncurveright"
         android:backgroundTint="#FDBF04"
         android:text="PROCEED"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.006"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.983" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -279,9 +281,9 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885" />
+        app:layout_constraintVertical_bias="0.861" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

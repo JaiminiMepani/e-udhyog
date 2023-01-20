@@ -64,7 +64,7 @@
         android:layout_height="50dp"
         android:layout_width="260dp"
         android:height="50dp"
-        android:background="@drawable/buttoncurve"
+        android:background="@drawable/buttoncurveright"
         android:drawableLeft="@drawable/ic_baseline_phone_24"
         android:drawablePadding="10dp"
         android:ems="10"
@@ -87,7 +87,7 @@
     android:layout_width="260dp"
     android:layout_height="50dp"
     android:autofillHints=""
-    android:background="@drawable/buttoncurve"
+    android:background="@drawable/buttoncurveright"
     android:drawableStart="@drawable/ic_baseline_lock_24"
     android:drawablePadding="10dp"
     android:ems="10"
@@ -107,23 +107,25 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/loginbtn"
+        android:id="@+id/b_loginbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="260dp"
         android:height="50dp"
-        android:background="@drawable/buttoncurve"
+        android:background="@drawable/buttoncurveright"
         android:backgroundTint="#FDBF04"
         android:text="@string/LOGIN"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
+        app:layout_constraintVertical_bias="0.957" />
 
     <TextView
         android:id="@+id/forgotpassword"

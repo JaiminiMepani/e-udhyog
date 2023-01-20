@@ -14,8 +14,8 @@ public class SellerFirst extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seller_first);
 
-        Button Newseller =findViewById(R.id.newseller);
-        Button  Oldseller =findViewById(R.id.oldseller);
+        Button Newseller =findViewById(R.id.choose_newseller);
+        Button  Oldseller =findViewById(R.id.choose_oldseller);
        Newseller.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

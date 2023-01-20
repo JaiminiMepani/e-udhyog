@@ -70,6 +70,19 @@
             android:theme="@style/Theme.eudhyog"/>
 
 
+        <activity android:name="com.example.e_udhyog.BuyerMyAccount"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.Payment"
+            android:theme="@style/Theme.eudhyog" />
+
+        <activity android:name="com.example.e_udhyog.SellerMain"
+        android:theme="@style/Theme.eudhyog" />
+
+        <activity android:name="com.example.e_udhyog.BuyerMain"
+            android:theme="@style/Theme.eudhyog" />
+
+
     </application>
 
 </manifest>

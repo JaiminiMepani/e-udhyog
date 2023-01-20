@@ -3,17 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable-v24/ic_baseline_help_24.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable-v24/ic_baseline_info_24.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable-v24/ic_baseline_notes_24.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable-v24/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable-v24/ic_baseline_perm_identity_24.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable-v24/ic_baseline_shopping_bag_24.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable-v24/shape.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/buttoncurve.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/buttoncurveleft.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1045" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_person_24_1.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/line.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/logocurve.xml" value="0.1045" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/otpsquare.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/rounded_textback.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/spinner_border.xml" value="0.1" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/drawable/user.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/activity_main.xml" value="0.165625" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/already_selling.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/buy_sell.xml" value="0.1796875" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/buyer_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/buyer_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/buyer_myaccount.xml" value="0.1796875" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/buyer_register.xml" value="0.1796875" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/change_password.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/delivery.xml" value="0.1796875" />
@@ -21,8 +38,10 @@
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/forgotpasswordotp.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/login_register.xml" value="0.1" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/otp.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/payment.xml" value="0.1796875" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/seller_catalog.xml" value="0.1796875" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/seller_first.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/seller_main.xml" value="0.12" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/seller_otp.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/selling_details.xml" value="0.1796875" />
         <entry key="..\:/Users/Shreeji/AndroidStudioProjects/eudhyog/app/src/main/res/layout/start_selling.xml" value="0.1796875" />

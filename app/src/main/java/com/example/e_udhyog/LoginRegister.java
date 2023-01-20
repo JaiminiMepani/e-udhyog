@@ -13,9 +13,9 @@ public class LoginRegister extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_register);
-        Button Register=findViewById(R.id.register);
+        Button Register=findViewById(R.id.choose_register);
 
-        Button  Login =findViewById(R.id.login);
+        Button  Login =findViewById(R.id.choose_login);
        Register .setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

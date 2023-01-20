@@ -10,17 +10,17 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="122dp"
-        android:layout_height="58dp"
+        android:layout_width="141dp"
+        android:layout_height="47dp"
         android:text="Set Minimum Order Quantity"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754" />
+        app:layout_constraintVertical_bias="0.758" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine6"
@@ -33,10 +33,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74"
+        app:layout_constraintVertical_bias="0.759"
         tools:ignore="Autofill,LabelFor" />
 
     <TextView
@@ -59,50 +59,52 @@
         tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
-        android:layout_width="165dp"
+        android:id="@+id/finish_btn"
+        android:layout_width="170dp"
         android:layout_height="50dp"
-        android:background="@drawable/shape"
+        android:background="@drawable/buttoncurveleft"
         android:backgroundTint="#FDBF04"
         android:text="@string/finish"
         android:textAlignment="center"
         android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.96" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
-        android:layout_width="165dp"
+        android:layout_width="170dp"
         android:layout_height="50dp"
-        android:background="@drawable/shape"
+        android:background="@drawable/buttoncurveright"
         android:backgroundTint="#FDBF04"
         android:text="@string/add_product"
         android:textAlignment="center"
         android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.96" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="136dp"
+        android:layout_height="36dp"
         android:text="@string/add_product_image"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.104" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <TextView
         android:id="@+id/p_name"
@@ -116,7 +118,7 @@
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintVertical_bias="0.215" />
 
     <TextView
         android:id="@+id/textView3"
@@ -130,7 +132,7 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.347" />
+        app:layout_constraintVertical_bias="0.303" />
 
     <TextView
         android:id="@+id/textView4"
@@ -144,7 +146,7 @@
         app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:id="@+id/textView5"
@@ -158,7 +160,7 @@
         app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintVertical_bias="0.578" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
@@ -167,14 +169,15 @@
         android:backgroundTint="@color/black"
         android:ems="10"
         android:gravity="start|top"
+
         android:inputType="textMultiLine"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.895"
-        app:layout_constraintStart_toStartOf="@+id/p_name"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221"
+        app:layout_constraintVertical_bias="0.206"
         tools:ignore="Autofill,LabelFor" />
 
     <EditText
@@ -188,10 +191,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.424"
+        app:layout_constraintVertical_bias="0.489"
         tools:ignore="Autofill,LabelFor" />
 
     <EditText
@@ -205,10 +208,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323"
+        app:layout_constraintVertical_bias="0.303"
         tools:ignore="Autofill,LabelFor" />
 
     <EditText
@@ -222,10 +225,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529"
+        app:layout_constraintVertical_bias="0.578"
         tools:ignore="Autofill,LabelFor" />
 
     <TextView
@@ -237,10 +240,10 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.672" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine5"
@@ -253,10 +256,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629"
+        app:layout_constraintVertical_bias="0.674"
         tools:ignore="Autofill,LabelFor" />
 
     <ImageButton
@@ -266,10 +269,10 @@
         android:layout_marginTop="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintVertical_bias="0.001"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
 
     <Button
@@ -283,5 +286,57 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.091" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
+        android:text="Expected Delivery Days"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GST in %"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <Spinner
+        android:id="@+id/gst_spinner"
+        android:layout_width="207dp"
+        android:layout_height="46dp"
+        android:background="@drawable/spinner_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <Spinner
+        android:id="@+id/days_spinner"
+        android:layout_width="211dp"
+        android:layout_height="46dp"
+        android:background="@drawable/spinner_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
