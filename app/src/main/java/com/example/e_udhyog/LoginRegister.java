@@ -13,15 +13,16 @@ public class LoginRegister extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_register);
-        Button Register=findViewById(R.id.choose_register);
-
-        Button  Login =findViewById(R.id.choose_login);
-       Register .setOnClickListener(new View.OnClickListener() {
+        Button Register = findViewById(R.id.choose_register);
+        Button Login = findViewById(R.id.choose_login);
+        Register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(LoginRegister.this,BuyerRegister.class);
-                startActivity(intent);}
+                Intent intent = new Intent(LoginRegister.this, Buyer_Register.class);
+                startActivity(intent);
+            }
         });
+
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

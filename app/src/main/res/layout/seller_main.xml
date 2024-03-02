@@ -8,7 +8,7 @@
     android:background="#F6F5F3">
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/s_accbtn"
         android:layout_width="60dp"
         android:layout_height="54dp"
         android:background="@drawable/user"
@@ -18,10 +18,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/ic_baseline_person_24" />
+        app:srcCompat="@drawable/ic_baseline_person_24_1" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/store_name"
         android:layout_width="304dp"
         android:layout_height="58dp"
         android:text="@string/seller_store_name"
@@ -34,4 +34,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="410dp"
+        android:layout_height="638dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
 </androidx.constraintlayout.widget.ConstraintLayout>

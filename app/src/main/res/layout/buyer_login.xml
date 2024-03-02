@@ -10,8 +10,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="217dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +60,7 @@
 
 
     <EditText
-        android:id="@+id/phnum"
+        android:id="@+id/phn_num"
         android:layout_height="50dp"
         android:layout_width="260dp"
         android:height="50dp"
@@ -83,7 +83,7 @@
         tools:ignore="RtlHardcoded,RtlSymmetry"
         android:autofillHints="" />
     <EditText
-    android:id="@+id/password_login"
+    android:id="@+id/password"
     android:layout_width="260dp"
     android:layout_height="50dp"
     android:autofillHints=""

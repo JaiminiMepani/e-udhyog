@@ -1,0 +1,111 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:background="#F6F5F3"
+    app:cardElevation="1dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F6F5F3"
+        android:id="@+id/product_container">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F6F5F3"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/row1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                tools:text="Product name" />
+
+
+            <TextView
+                android:id="@+id/row2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/row1"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                tools:text="qty" />
+
+
+            <TextView
+                android:id="@+id/row3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/row2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black"
+                tools:text="remaining" />
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/row3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="8dp"
+                android:text="Add Qty : "
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/row4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/row3"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="-5dp"
+                android:layout_toRightOf="@id/a1"
+                android:hint="Add Qty "
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/row5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/row4"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#FDBF04"
+                android:text="REMOVE"
+                android:textColor="@color/black" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/row6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/row5"
+                android:layout_below="@id/row4"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#FDBF04"
+              android:text="Save" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

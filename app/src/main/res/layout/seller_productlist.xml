@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:background="#F6F5F3"
+    app:cardElevation="1dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F6F5F3"
+        android:id="@+id/product_container">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F6F5F3"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:id="@+id/product_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/product_image"
+                tools:text="Samsung Galaxy Note 10" />
+
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_title"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/product_image"
+                tools:text="ksh 12,000" />
+
+
+            <TextView
+                android:id="@+id/product_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_price"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/product_image"
+                tools:text="details"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"/>
+
+            <TextView
+                android:id="@+id/other_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_details"
+                android:inputType="textMultiLine"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/product_image"
+                tools:text="otherdetails"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/other_details"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/product_image"
+                tools:text="otherdetails" />
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

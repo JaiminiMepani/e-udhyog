@@ -7,18 +7,6 @@
     android:background="#F6F5F3"
     tools:context=".DeliveryMain">
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
-        android:text="Self Pickup"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.861" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -133,6 +121,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.713" />
 
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -146,12 +135,10 @@
         app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.801" />
-
-
+        app:layout_constraintVertical_bias="0.782" />
 
     <EditText
-        android:id="@+id/nme"
+        android:id="@+id/b_nme"
         android:layout_width="285dp"
         android:layout_height="45dp"
         android:backgroundTint="@color/black"
@@ -169,7 +156,7 @@
         tools:ignore="Autofill,LabelFor" />
 
     <EditText
-        android:id="@+id/no."
+        android:id="@+id/num"
         android:layout_width="285dp"
         android:layout_height="45dp"
         android:backgroundTint="@color/black"
@@ -255,8 +242,54 @@
         app:layout_constraintVertical_bias="0.716"
         tools:ignore="Autofill,LabelFor" />
 
+
+
+    <RadioGroup
+        android:id="@+id/delivery_radio"
+        android:layout_width="398dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878">
+
+
+        <RadioButton
+            android:id="@+id/selfpickup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Self Pickup"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.114"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.861" />
+
+
+        <RadioButton
+            android:id="@+id/homedelivery"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Delivery"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.881"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.861" />
+    </RadioGroup>
+
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/delivery_btn"
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:layout_marginBottom="5dp"
@@ -272,18 +305,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.983" />
-
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
-        android:text="Home Delivery"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.861" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

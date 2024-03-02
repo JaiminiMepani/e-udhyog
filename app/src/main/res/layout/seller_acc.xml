@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellerAccount"
+    android:background="#F6F5F3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="217dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/logocurve"
+            android:backgroundTint="#F6F5F3"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/store"
+                tools:ignore="ContentDescription" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="150dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:text="My Account"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+    <Button
+        android:id="@+id/s_profilebtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/s_profile"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/s_catalog"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_menu_book_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/catalogue"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <Button
+        android:id="@+id/deliverypartner"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_storefront_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="Delivery Partner"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <Button
+        android:id="@+id/reports"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_auto_graph_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text= "Reports"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <Button
+        android:id="@+id/notifiation"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_notifications_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="@string/notification"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+    <Button
+        android:id="@+id/s_bankdetails"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F5F3"
+        android:drawableStart="@drawable/ic_baseline_notes_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="30dp"
+        android:text="Bank Details"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <Button
+        android:id="@+id/slogout"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttoncurveright"
+        android:backgroundTint="#FDBF04"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttoncurveleft"
+        android:backgroundTint="#FDBF04"
+        android:text="@string/deactivate_account"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BuyerRegister"
+    tools:context=".Buyer_Register"
     android:background="#F6F5F3">
 
 
@@ -81,7 +81,7 @@
         tools:ignore="Autofill,RtlHardcoded,RtlSymmetry" />
 
     <EditText
-        android:id="@+id/Password"
+        android:id="@+id/b_Password"
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:background="@drawable/buttoncurveright"
@@ -127,7 +127,7 @@
 
 
     <EditText
-        android:id="@+id/confirmPassword"
+        android:id="@+id/b_confirmPassword"
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:background="@drawable/buttoncurveright"

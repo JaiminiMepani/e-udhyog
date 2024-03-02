@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -22,17 +23,24 @@ public class BuySell extends AppCompatActivity {
                 Buyer.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+
                                 Intent intent=new Intent(BuySell.this,LoginRegister.class);
                                 startActivity(intent);}
                 });
         Seller.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+
                         Intent intent=new Intent(BuySell.this,SellerFirst.class);
                         startActivity(intent);}
                 });
             }
 
+
+  /*  public static boolean isLogin(Context context) {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return sharedPreferences.getBoolean(LOGIN, false);
+    }*/
 
         }
 

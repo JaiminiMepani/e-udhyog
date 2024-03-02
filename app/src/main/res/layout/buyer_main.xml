@@ -10,50 +10,42 @@
     android:background="#F6F5F3">
 
 
-
-    <FrameLayout
-        android:id="@+id/frameLayout"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#FDBF04"
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="411dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/e_udhyog"
+        android:textAlignment="center"
+        android:textColor="#FDBF04"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="410dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
         app:layout_constraintVertical_bias="0.0">
-        <TextView
-            android:layout_width="384dp"
-            android:layout_height="718dp"
-            android:text="@string/e_udhyog"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.294" />
 
-    </FrameLayout>
+        <SearchView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line">
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/search"
-        android:layout_width="320dp"
-        android:layout_height="35dp"
-        android:background="@drawable/line"
-        android:clickable="true"
-        android:focusable="true"
-        app:iconifiedByDefault="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
-
+        </SearchView>
+    </RelativeLayout>
 
     <ImageView
         android:id="@+id/imageView"
@@ -84,7 +76,7 @@
         tools:ignore="SmallSp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/access"
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,7 +104,7 @@
         tools:ignore="SmallSp" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/art"
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -141,7 +133,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/clothing"
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -169,7 +161,7 @@
         tools:ignore="HardcodedText,SmallSp" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/homedecor"
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -197,7 +189,7 @@
         tools:ignore="SmallSp" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/food"
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -209,24 +201,24 @@
         app:srcCompat="@drawable/grocery"
         tools:ignore="ContentDescription" />
 
+
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="20dp"
-        android:text="@string/grocery"
+        android:text="Food"
         android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24"
+        app:layout_constraintVertical_bias="0.241"
         tools:ignore="SmallSp" />
 
-
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/b_mycart"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -254,7 +246,7 @@
         app:srcCompat="@drawable/ic_baseline_home_24" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/b_myacc"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -267,5 +259,15 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ic_baseline_person_24_1" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="414dp"
+        android:layout_height="453dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

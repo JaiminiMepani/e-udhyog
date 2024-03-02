@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.e_udhyog">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,15 +17,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.eudhyog"
-        tools:targetApi="31">
+        android:theme="@style/Theme.Eudhyog"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_config">
 
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
@@ -29,13 +37,14 @@
         <activity android:name="com.example.e_udhyog.SellerFirst"
             android:theme="@style/Theme.eudhyog"/>
 
+        <activity android:name="com.example.e_udhyog.Buyer_Register"
+            android:theme="@style/Theme.eudhyog"/>
+
+
         <activity android:name="com.example.e_udhyog.LoginRegister"
             android:theme="@style/Theme.eudhyog"/>
 
         <activity android:name="com.example.e_udhyog.BuyerLogin"
-            android:theme="@style/Theme.eudhyog"/>
-
-        <activity android:name="com.example.e_udhyog.BuyerRegister"
             android:theme="@style/Theme.eudhyog"/>
 
         <activity android:name="com.example.e_udhyog.AlreadySelling"
@@ -81,6 +90,67 @@
 
         <activity android:name="com.example.e_udhyog.BuyerMain"
             android:theme="@style/Theme.eudhyog" />
+
+
+        <activity android:name="com.example.e_udhyog.SellerAccount"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.SellerMyProfile"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.BankDetails"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.CartMain"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.BuyerMyprofile"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.SellerCategory"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.Addproduct_Finish"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.DeliveryPartner"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.Seller_inventory"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.SellerForgotPassword"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.Help"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.SellerChangePassword"
+            android:theme="@style/Theme.eudhyog"/>
+        <activity android:name="com.example.e_udhyog.Subcategory_List"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.Subcategory_clothing"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.Subcategory_homedecor"
+            android:theme="@style/Theme.eudhyog"/>
+
+        <activity android:name="com.example.e_udhyog.Add_popup"
+            android:theme="@style/Theme.eudhyog"/>
+
+
+        <activity android:name="com.example.e_udhyog.Subcategory_accessories"
+            android:theme="@style/Theme.eudhyog"/>
+        <activity android:name="com.example.e_udhyog.Seller_Reports"
+            android:theme="@style/Theme.eudhyog"/>
+
+
+            <activity android:name="com.example.e_udhyog.Subcategory_art"
+                android:theme="@style/Theme.eudhyog"/>
+        <activity android:name="com.example.e_udhyog.DetailedProductsActivity"
+            android:theme="@style/Theme.eudhyog"/>
+
 
 
     </application>

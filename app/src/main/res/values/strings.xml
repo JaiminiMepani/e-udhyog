@@ -62,6 +62,10 @@
     <string name="cart">Cart</string>
     <string name="account">Account</string>
     <string name="e_udhyog">E-UDHYOG</string>
+    <string name="reports">Reports</string>
+<string name="inventory">Inventory</string>
+<string name="catalogue">Catalogue</string>
+<string name="s_profile">My Profile</string>
     <string name="category">Category</string>
     <string name="accessories">Accessories</string>
     <string name="art_amp_craft"><![CDATA[Art&Craft]]></string>
@@ -69,4 +73,7 @@
     <string name="homedecor">HomeDecor</string>
     <string name="grocery">Grocery</string>
     <string name="seller_store_name">seller store name</string>
+    <string name="edit_profile_information">Edit Profile Information</string>
+
+
 </resources>

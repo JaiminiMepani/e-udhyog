@@ -30,7 +30,7 @@
         tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/s_phn"
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:autofillHints=""
@@ -53,7 +53,7 @@
         tools:ignore="RtlSymmetry" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/s_pass"
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:autofillHints=""
@@ -74,6 +74,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.69"
         tools:ignore="MissingConstraints,RtlSymmetry,TextFields" />
+
+    <TextView
+        android:id="@+id/s_forgotpassword"
+        android:layout_width="150dp"
+        android:layout_height="51dp"
+        android:text="@string/forgot_password"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/s_loginbtn"

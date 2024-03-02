@@ -41,7 +41,7 @@
         app:layout_constraintVertical_bias="0.15" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/s_storename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.345" />
 
     <EditText
-        android:id="@+id/editTextphone"
+        android:id="@+id/s_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
@@ -103,7 +103,7 @@
         app:layout_constraintVertical_bias="0.627" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
+        android:id="@+id/s_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
@@ -133,13 +133,13 @@
         app:layout_constraintVertical_bias="0.247" />
 
     <EditText
-        android:id="@+id/editTextpincode"
+        android:id="@+id/gstin_no"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
         android:ems="10"
-        android:inputType="number"
-        android:maxLength="12"
+        android:inputType="text"
+        android:maxLength="15"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -215,7 +215,7 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="City,State"
+        android:text="State"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -226,7 +226,7 @@
         app:layout_constraintVertical_bias="0.723" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/s_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -240,7 +240,7 @@
         app:layout_constraintVertical_bias="0.441" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/s_cpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -254,7 +254,7 @@
         app:layout_constraintVertical_bias="0.537" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/s_state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -267,7 +267,7 @@
         app:layout_constraintVertical_bias="0.727" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/s_pin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
